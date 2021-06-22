@@ -1,7 +1,7 @@
-# my_film = "star wars"
-# my_book = "the art of war"
-# my_recipe = "tacos recipe"
-# my_song = "one day"
+ my_film = "star wars"
+ my_book = "the art of war"
+ my_recipe = "tacos recipe"
+ my_song = "one day"
 
 def yes_or_no(response)
     if response == "no"
@@ -34,6 +34,6 @@ def quester(my_film = "star wars",my_book = "the art of war",my_recipe = "tacos 
 
         end
 
-        quester
+        quester(my_film = "star wars", my_book = "the art of war", my_recipe = "tacos recipe",my_song = "one day")
 
 
